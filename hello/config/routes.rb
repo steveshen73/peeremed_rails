@@ -1,4 +1,8 @@
 Hello::Application.routes.draw do
+  resources :microposts
+
+  resources :users
+
   get "hello_world/index"
 
   # The priority is based upon order of creation:
