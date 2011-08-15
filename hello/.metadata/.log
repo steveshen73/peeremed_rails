@@ -1,0 +1,1016 @@
+!SESSION 2011-08-14 16:08:05.875 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.version=1.5.0_09
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2011-08-14 16:08:39.984
+!MESSAGE Warnings while parsing the view contributions from the 'org.eclipse.ui.viewActions' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-14 16:08:39.984
+!MESSAGE Actions require a non-empty label or definitionId: plug-in='ru.nlmk.eclipseutilplugins', id='AUTOGEN:::eclipseutilplugins.viewResourceNavigator/eclipseutilplugins.ResourceAction1'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-14 16:08:39.984
+!MESSAGE Actions require a non-empty label or definitionId: plug-in='ru.nlmk.eclipseutilplugins', id='AUTOGEN:::eclipseutilplugins.viewResourceNavigator/eclipseutilplugins.ResourceAction2'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-14 16:08:39.984
+!MESSAGE Actions require a non-empty label or definitionId: plug-in='ru.nlmk.eclipseutilplugins', id='AUTOGEN:::eclipseutilplugins.viewResourceNavigator/eclipseutilplugins.ResourceAction3'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-14 16:08:39.984
+!MESSAGE Actions require a non-empty label or definitionId: plug-in='ru.nlmk.eclipseutilplugins', id='AUTOGEN:::eclipseutilplugins.viewResourceNavigator/eclipseutilplugins.ResourceAction4'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-14 16:08:39.984
+!MESSAGE Actions require a non-empty label or definitionId: plug-in='ru.nlmk.eclipseutilplugins', id='AUTOGEN:::eclipseutilplugins.viewPackageExplorer/eclipseutilplugins.PackageAction1'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-14 16:08:39.984
+!MESSAGE Actions require a non-empty label or definitionId: plug-in='ru.nlmk.eclipseutilplugins', id='AUTOGEN:::eclipseutilplugins.viewPackageExplorer/eclipseutilplugins.PackageAction2'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-14 16:08:39.984
+!MESSAGE Actions require a non-empty label or definitionId: plug-in='ru.nlmk.eclipseutilplugins', id='AUTOGEN:::eclipseutilplugins.viewPackageExplorer/eclipseutilplugins.PackageAction3'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-14 16:08:39.984
+!MESSAGE Actions require a non-empty label or definitionId: plug-in='ru.nlmk.eclipseutilplugins', id='AUTOGEN:::eclipseutilplugins.viewPackageExplorer/eclipseutilplugins.PackageAction4'
+
+!ENTRY org.eclipse.osgi 4 0 2011-08-14 16:08:52.859
+!MESSAGE While loading class "org.rubypeople.rdt.internal.core.RubyModelManager$5$1", thread "Worker-2" timed out waiting (5000ms) for thread "Worker-0" to finish starting bundle "org.rubypeople.rdt.core". To avoid deadlock, thread "Worker-2" is proceeding but "org.rubypeople.rdt.internal.core.RubyModelManager$5$1" may not be fully initialized.
+!STACK 0
+java.lang.Exception: Generated exception.
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.preFindLocalClass(EclipseLazyStarter.java:77)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:189)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:334)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:386)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:347)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:83)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.rubypeople.rdt.internal.core.RubyModelManager$5.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:09:03.109
+!MESSAGE NLS missing message: TestUnitBaseLaunchConfiguration_error_invalidproject in: org.rubypeople.rdt.internal.testunit.ui.TestUnitMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:09:03.109
+!MESSAGE NLS missing message: JUnitBaseLaunchConfiguration_dialog_title in: org.rubypeople.rdt.internal.testunit.ui.TestUnitMessages
+
+!ENTRY org.radrails.rails.core 4 0 2011-08-14 16:14:14.875
+!MESSAGE Error loading Rails plugin list
+!STACK 0
+java.lang.NullPointerException
+	at org.radrails.rails.core.railsplugins.RailsPluginsContentHandler.endElement(RailsPluginsContentHandler.java:64)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endNamespaceScope(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.radrails.rails.core.railsplugins.RailsPluginsManager.parsePluginsXML(RailsPluginsManager.java:226)
+	at org.radrails.rails.core.railsplugins.RailsPluginsManager.updatePlugins(RailsPluginsManager.java:135)
+	at org.radrails.rails.internal.ui.railsplugins.RailsPluginsPage$3.run(RailsPluginsPage.java:225)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-08-14 16:14:14.968
+!MESSAGE An internal error occurred during: "Refresh plugins".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Shell.<init>(Shell.java:271)
+	at org.eclipse.swt.widgets.Shell.<init>(Shell.java:357)
+	at org.eclipse.jface.window.Window.createShell(Window.java:482)
+	at org.eclipse.jface.window.Window.create(Window.java:425)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1124)
+	at org.eclipse.jface.window.Window.open(Window.java:785)
+	at org.eclipse.jface.dialogs.MessageDialog.openError(MessageDialog.java:322)
+	at org.radrails.rails.internal.ui.railsplugins.RailsPluginsPage$3.run(RailsPluginsPage.java:236)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.radrails.rails.core 4 0 2011-08-14 16:14:17.593
+!MESSAGE Error loading Rails plugin list
+!STACK 0
+java.lang.NullPointerException
+	at org.radrails.rails.core.railsplugins.RailsPluginsContentHandler.endElement(RailsPluginsContentHandler.java:64)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endNamespaceScope(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.radrails.rails.core.railsplugins.RailsPluginsManager.parsePluginsXML(RailsPluginsManager.java:226)
+	at org.radrails.rails.core.railsplugins.RailsPluginsManager.updatePlugins(RailsPluginsManager.java:135)
+	at org.radrails.rails.internal.ui.railsplugins.RailsPluginsPage$3.run(RailsPluginsPage.java:225)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-08-14 16:14:17.609
+!MESSAGE An internal error occurred during: "Refresh plugins".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Shell.<init>(Shell.java:271)
+	at org.eclipse.swt.widgets.Shell.<init>(Shell.java:357)
+	at org.eclipse.jface.window.Window.createShell(Window.java:482)
+	at org.eclipse.jface.window.Window.create(Window.java:425)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1124)
+	at org.eclipse.jface.window.Window.open(Window.java:785)
+	at org.eclipse.jface.dialogs.MessageDialog.openError(MessageDialog.java:322)
+	at org.radrails.rails.internal.ui.railsplugins.RailsPluginsPage$3.run(RailsPluginsPage.java:236)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.109
+!MESSAGE NLS unused message: NewSourceFolderWizardPage_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.109
+!MESSAGE NLS unused message: NewSourceFolderWizardPage_root_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.109
+!MESSAGE NLS unused message: NewSourceFolderWizardPage_project_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.109
+!MESSAGE NLS unused message: NewSourceFolderWizardPage_project_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.109
+!MESSAGE NLS unused message: NewSourceFolderWizardPage_operation in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.109
+!MESSAGE NLS unused message: NewSourceFolderWizardPage_ChooseProjectDialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.109
+!MESSAGE NLS unused message: NewSourceFolderWizardPage_ChooseProjectDialog_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.125
+!MESSAGE NLS unused message: NewSourceFolderWizardPage_error_EnterProjectName in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.125
+!MESSAGE NLS unused message: NewSourceFolderWizardPage_error_InvalidProjectPath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.125
+!MESSAGE NLS unused message: NewSourceFolderWizardPage_error_NotAJavaProject in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.125
+!MESSAGE NLS unused message: NewSourceFolderWizardPage_error_ProjectNotExists in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.125
+!MESSAGE NLS unused message: SourceContainerWorkbookPage_error_while_linking in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.125
+!MESSAGE NLS unused message: SourceContainerWorkbookPage_ExistingSourceFolderDialog_new_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.125
+!MESSAGE NLS unused message: SourceContainerWorkbookPage_NewSourceFolderDialog_new_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.125
+!MESSAGE NLS unused message: SourceContainerWorkbookPage_NewSourceFolderDialog_edit_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.125
+!MESSAGE NLS unused message: SourceContainerWorkbookPage_NewSourceFolderDialog_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.125
+!MESSAGE NLS unused message: SourceContainerWorkbookPage_ExistingSourceFolderDialog_edit_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.125
+!MESSAGE NLS unused message: LibrariesWorkbookPage_libraries_replace_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.140
+!MESSAGE NLS unused message: LibrariesWorkbookPage_libraries_addjar_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.140
+!MESSAGE NLS unused message: LibrariesWorkbookPage_libraries_addvariable_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.140
+!MESSAGE NLS unused message: LibrariesWorkbookPage_libraries_addlibrary_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.140
+!MESSAGE NLS unused message: LibrariesWorkbookPage_JavadocPropertyDialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.140
+!MESSAGE NLS unused message: BuildPathDialogAccess_JARArchiveDialog_new_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.140
+!MESSAGE NLS unused message: BuildPathDialogAccess_JARArchiveDialog_new_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.140
+!MESSAGE NLS unused message: BuildPathDialogAccess_JARArchiveDialog_edit_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.140
+!MESSAGE NLS unused message: BuildPathDialogAccess_JARArchiveDialog_edit_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.140
+!MESSAGE NLS unused message: NewSourceFolderDialog_error_invalidpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.140
+!MESSAGE NLS unused message: NewSourceFolderDialog_error_enterpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.156
+!MESSAGE NLS unused message: NewSourceFolderDialog_error_pathexists in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.156
+!MESSAGE NLS unused message: SourceAttachmentBlock_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.156
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.156
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.156
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_externalfile_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.156
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_externalfolder_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.156
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.156
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_varlabel in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.156
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_variable_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.171
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_external_varbutton in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.203
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_error_notvalid in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.203
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_error_notabsolute in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.203
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_error_filenotexists in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.203
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_error_varnotexists in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.203
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_error_deviceinpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.203
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_warning_varempty in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.203
+!MESSAGE NLS unused message: SourceAttachmentBlock_intjardialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.218
+!MESSAGE NLS unused message: SourceAttachmentBlock_intjardialog_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.218
+!MESSAGE NLS unused message: SourceAttachmentBlock_extvardialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.218
+!MESSAGE NLS unused message: SourceAttachmentBlock_extvardialog_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.218
+!MESSAGE NLS unused message: SourceAttachmentBlock_extjardialog_text in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.218
+!MESSAGE NLS unused message: SourceAttachmentBlock_extfolderdialog_text in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.218
+!MESSAGE NLS unused message: SourceAttachmentBlock_extfolderdialog_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.218
+!MESSAGE NLS unused message: SourceAttachmentDialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.218
+!MESSAGE NLS unused message: EditVariableEntryDialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.218
+!MESSAGE NLS unused message: EditVariableEntryDialog_filename_varlabel in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.218
+!MESSAGE NLS unused message: EditVariableEntryDialog_filename_empty in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.218
+!MESSAGE NLS unused message: EditVariableEntryDialog_filename_variable_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.234
+!MESSAGE NLS unused message: EditVariableEntryDialog_filename_external_varbutton in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.234
+!MESSAGE NLS unused message: EditVariableEntryDialog_extvardialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.234
+!MESSAGE NLS unused message: EditVariableEntryDialog_extvardialog_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.234
+!MESSAGE NLS unused message: EditVariableEntryDialog_filename_error_notvalid in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.234
+!MESSAGE NLS unused message: EditVariableEntryDialog_filename_error_filenotexists in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.234
+!MESSAGE NLS unused message: EditVariableEntryDialog_filename_error_varnotexists in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.234
+!MESSAGE NLS unused message: EditVariableEntryDialog_filename_error_deviceinpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.234
+!MESSAGE NLS unused message: EditVariableEntryDialog_filename_warning_varempty in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.234
+!MESSAGE NLS unused message: EditVariableEntryDialog_filename_error_alreadyexists in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.234
+!MESSAGE NLS unused message: VariableBlock_vars_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.250
+!MESSAGE NLS unused message: VariableBlock_vars_add_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.250
+!MESSAGE NLS unused message: VariableBlock_vars_edit_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.250
+!MESSAGE NLS unused message: VariableBlock_vars_remove_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.250
+!MESSAGE NLS unused message: VariableBlock_variableSettingError_titel in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.250
+!MESSAGE NLS unused message: VariableBlock_operation_desc in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.250
+!MESSAGE NLS unused message: VariableBlock_job_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.250
+!MESSAGE NLS unused message: VariableBlock_needsbuild_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.250
+!MESSAGE NLS unused message: VariableBlock_needsbuild_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.250
+!MESSAGE NLS unused message: VariablePathDialogField_variabledialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.250
+!MESSAGE NLS unused message: CPVariableElementLabelProvider_reserved in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.250
+!MESSAGE NLS unused message: CPVariableElementLabelProvider_empty in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.265
+!MESSAGE NLS unused message: VariableCreationDialog_titlenew in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.265
+!MESSAGE NLS unused message: VariableCreationDialog_titleedit in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.265
+!MESSAGE NLS unused message: VariableCreationDialog_name_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.265
+!MESSAGE NLS unused message: VariableCreationDialog_path_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.265
+!MESSAGE NLS unused message: VariableCreationDialog_path_file_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.265
+!MESSAGE NLS unused message: VariableCreationDialog_path_dir_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.265
+!MESSAGE NLS unused message: VariableCreationDialog_error_entername in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.265
+!MESSAGE NLS unused message: VariableCreationDialog_error_whitespace in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.265
+!MESSAGE NLS unused message: VariableCreationDialog_error_invalidname in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.281
+!MESSAGE NLS unused message: VariableCreationDialog_error_nameexists in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.281
+!MESSAGE NLS unused message: VariableCreationDialog_error_invalidpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.281
+!MESSAGE NLS unused message: VariableCreationDialog_warning_pathnotexists in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.281
+!MESSAGE NLS unused message: VariableCreationDialog_extjardialog_text in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.281
+!MESSAGE NLS unused message: VariableCreationDialog_extdirdialog_text in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.281
+!MESSAGE NLS unused message: VariableCreationDialog_extdirdialog_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.281
+!MESSAGE NLS unused message: VariableBlock_variableSettingError_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.281
+!MESSAGE NLS unused message: NewVariableEntryDialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.281
+!MESSAGE NLS unused message: NewVariableEntryDialog_vars_extend in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.281
+!MESSAGE NLS unused message: NewVariableEntryDialog_configbutton_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.281
+!MESSAGE NLS unused message: NewVariableEntryDialog_vars_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.281
+!MESSAGE NLS unused message: NewVariableEntryDialog_ExtensionDialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.296
+!MESSAGE NLS unused message: NewVariableEntryDialog_ExtensionDialog_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.296
+!MESSAGE NLS unused message: NewVariableEntryDialog_info_notexists in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.296
+!MESSAGE NLS unused message: NewVariableEntryDialog_info_isfolder in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.296
+!MESSAGE NLS unused message: NewVariableEntryDialog_info_noselection in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.296
+!MESSAGE NLS unused message: NewVariableEntryDialog_info_selected in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.296
+!MESSAGE NLS unused message: OutputLocationDialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.296
+!MESSAGE NLS unused message: OutputLocationDialog_usedefault_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.296
+!MESSAGE NLS unused message: OutputLocationDialog_usespecific_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.296
+!MESSAGE NLS unused message: OutputLocationDialog_location_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.296
+!MESSAGE NLS unused message: OutputLocationDialog_error_existingisfile in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.296
+!MESSAGE NLS unused message: OutputLocationDialog_error_invalidpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.312
+!MESSAGE NLS unused message: OutputLocationDialog_error_invalidFolder in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.312
+!MESSAGE NLS unused message: OutputLocationDialog_ChooseOutputFolder_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.312
+!MESSAGE NLS unused message: OutputLocationDialog_ChooseOutputFolder_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.312
+!MESSAGE NLS unused message: ExclusionInclusionDialog_Info_SrcAndOutput in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.312
+!MESSAGE NLS unused message: ExclusionInclusionDialog_Info_Src in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.312
+!MESSAGE NLS unused message: ExclusionInclusionDialog_Info_Output in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.312
+!MESSAGE NLS unused message: AccessRulesDialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.312
+!MESSAGE NLS unused message: AccessRulesDialog_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.312
+!MESSAGE NLS unused message: AccessRulesDialog_container_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.312
+!MESSAGE NLS unused message: AccessRulesDialog_switch_dialog_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.312
+!MESSAGE NLS unused message: AccessRulesDialog_project_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.328
+!MESSAGE NLS unused message: AccessRulesDialog_switch_dialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.328
+!MESSAGE NLS unused message: AccessRulesDialog_rules_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.328
+!MESSAGE NLS unused message: AccessRulesDialog_rules_add in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.328
+!MESSAGE NLS unused message: AccessRulesDialog_rules_up in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.328
+!MESSAGE NLS unused message: AccessRulesDialog_rules_remove in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.328
+!MESSAGE NLS unused message: AccessRulesDialog_combine_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.328
+!MESSAGE NLS unused message: AccessRulesDialog_severity_info_with_link in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.328
+!MESSAGE NLS unused message: AccessRulesDialog_severity_info_no_link in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.328
+!MESSAGE NLS unused message: AccessRulesDialog_severity_error in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.328
+!MESSAGE NLS unused message: AccessRulesDialog_severity_warning in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.343
+!MESSAGE NLS unused message: AccessRulesDialog_severity_ignore in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.343
+!MESSAGE NLS unused message: AccessRulesDialog_rules_edit in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.343
+!MESSAGE NLS unused message: AccessRulesDialog_rules_down in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.343
+!MESSAGE NLS unused message: AccessRulesLabelProvider_kind_accessible in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.343
+!MESSAGE NLS unused message: AccessRulesLabelProvider_kind_discouraged in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.343
+!MESSAGE NLS unused message: AccessRulesLabelProvider_kind_non_accessible in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.343
+!MESSAGE NLS unused message: TypeRestrictionEntryDialog_add_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.343
+!MESSAGE NLS unused message: TypeRestrictionEntryDialog_edit_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.343
+!MESSAGE NLS unused message: TypeRestrictionEntryDialog_pattern_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.359
+!MESSAGE NLS unused message: TypeRestrictionEntryDialog_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.359
+!MESSAGE NLS unused message: TypeRestrictionEntryDialog_description2 in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.359
+!MESSAGE NLS unused message: TypeRestrictionEntryDialog_error_empty in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.359
+!MESSAGE NLS unused message: TypeRestrictionEntryDialog_error_notrelative in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.359
+!MESSAGE NLS unused message: TypeRestrictionEntryDialog_kind_accessible in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.359
+!MESSAGE NLS unused message: TypeRestrictionEntryDialog_kind_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.359
+!MESSAGE NLS unused message: TypeRestrictionEntryDialog_kind_discourraged in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.359
+!MESSAGE NLS unused message: TypeRestrictionEntryDialog_kind_non_accessible in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.359
+!MESSAGE NLS unused message: ClasspathContainerDefaultPage_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.359
+!MESSAGE NLS unused message: ClasspathContainerDefaultPage_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.359
+!MESSAGE NLS unused message: ClasspathContainerDefaultPage_path_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: ClasspathContainerDefaultPage_path_error_enterpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: ClasspathContainerDefaultPage_path_error_invalidpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: ClasspathContainerDefaultPage_path_error_needssegment in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: ClasspathContainerDefaultPage_path_error_alreadyexists in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: ClasspathContainerSelectionPage_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: ClasspathContainerSelectionPage_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: ClasspathContainerWizard_pagecreationerror_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: ClasspathContainerWizard_pagecreationerror_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: ClasspathContainerWizard_new_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: ClasspathContainerWizard_edit_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: CPListLabelProvider_access_rules_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: CPListLabelProvider_container_access_rules in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: CPListLabelProvider_container_no_access_rules in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: CPListLabelProvider_source_attachment_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: CPListLabelProvider_javadoc_location_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: CPListLabelProvider_output_folder_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: CPListLabelProvider_native_library_path in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.375
+!MESSAGE NLS unused message: CPListLabelProvider_default_output_folder_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: CPListLabelProvider_access_rules_enabled in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: CPListLabelProvider_project_access_rules_combined in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: CPListLabelProvider_project_access_rules_no_rules in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: CPListLabelProvider_project_access_rules_not_combined in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: CPListLabelProvider_access_rules_disabled in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: NewSourceFolderDialog_useproject_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: NewSourceFolderDialog_usefolder_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: NewSourceFolderDialog_sourcefolder_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: RubyProjectWizardFirstPage_LayoutGroup_configure in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: RubyProjectWizardFirstPage_DetectGroup_jre_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: RubyProjectWizardFirstPage_JREGroup_compliance_13 in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: RubyProjectWizardFirstPage_JREGroup_compliance_14 in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: RubyProjectWizardFirstPage_JREGroup_compliance_50 in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: HintTextGroup_Exception_Title_output in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: NewSourceContainerWorkbookPage_Exception_Title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: NewSourceContainerWorkbookPage_Exception_refresh in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: NewSourceContainerWorkbookPage_ToolBar_CreateFolder_tooltip in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: NewSourceContainerWorkbookPage_ToolBar_AddJarCP_tooltip in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: NewSourceContainerWorkbookPage_ToolBar_AddJarCP_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: NewSourceContainerWorkbookPage_ToolBar_Include_tooltip in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.390
+!MESSAGE NLS unused message: NewSourceContainerWorkbookPage_ToolBar_Uninclude_tooltip in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewSourceContainerWorkbookPage_ToolBar_CreateOutput_tooltip in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_TypeGroup_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_folderNameGroup_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_folderTypeGroup_source_desc in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_folderTypeGroup_normal_desc in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_dependenciesGroup_none_desc in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_dependenciesGroup_copy_desc in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_dependenciesGroup_link_desc in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_dependenciesGroup_link_descDisabled in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_dependenciesGroup_locationLabel_desc in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_dependenciesGroup_browseButton_desc in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_dependenciesGroup_variables_desc in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_DependencyGroup_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_links_parentNotProject in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: NewFolderDialog_notExists in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_create in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_ArchiveToBuildpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_Include in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_UnincludeFolder in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.406
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_UnincludeFile in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_ResetFilters in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_EditOutputFolder in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_SetOutputToDefault in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_Default_Uninclude in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_Default_ResetAllOutputFolders in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_Default_Include in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_Default_CreateOutput in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_Default_toBuildpath_archives in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_Default_toBuildpath_library in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: PackageExplorerActionGroup_FormText_Default_Reset in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: ClasspathModifier_Monitor_ResetFilters in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: ClasspathModifier_Monitor_RemoveInclusion in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: ClasspathModifier_Monitor_ExamineInputFilters in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: ClasspathModifier_Monitor_EditInclusionExclusionFilters in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: ClasspathModifier_Monitor_CheckOutputFolders in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: ClasspathModifier_Monitor_Resetting in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: ClassPathDetector_operation_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: ClassPathDetector_error_closing_file in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: ClasspathModifier_Monitor_ResetOutputFolder in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: ClasspathModifier_ChangeOutputLocationDialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: ClasspathModifier_ChangeOutputLocationDialog_project_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.421
+!MESSAGE NLS unused message: ClasspathModifier_ChangeOutputLocationDialog_project_outputLocation in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: ClasspathModifier_Error_NoNatures in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: ClasspathModifierQueries_delete_linked_folder in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: ClasspathModifierQueries_do_not_delete_linked_folder in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: ClasspathModifierQueries_confirm_remove_linked_folder_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: ClasspathModifierQueries_confirm_remove_linked_folder_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: RubyProjectWizardSecondPage_problem_restore_classpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryWizardPage_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryWizardPage_list_config_button in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryWizardPage_list_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryWizardPage_description_new in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryWizardPage_description_edit in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryWizardPage_error_selectentry in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryWizardPage_error_selectonlyone in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryWizardPage_error_alreadyoncp in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryMarkerResolutionGenerator_changetouserlib_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryMarkerResolutionGenerator_createuserlib_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryMarkerResolutionGenerator_changetoother in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryMarkerResolutionGenerator_error_creationfailed_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryMarkerResolutionGenerator_error_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: UserLibraryMarkerResolutionGenerator_error_applyingfailed_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: ChangeComplianceDialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: ChangeComplianceDialog_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.437
+!MESSAGE NLS unused message: ChangeComplianceDialog_project_selection in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: ChangeComplianceDialog_workspace_selection in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: NativeLibrariesDialog_location_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: NativeLibrariesDialog_workspace_browse in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: NativeLibrariesDialog_external_browse in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: NativeLibrariesDialog_external_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: NativeLibrariesDialog_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: NativeLibrariesDialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: NativeLibrariesDialog_intfiledialog_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: NativeLibrariesDialog_error_external_not_existing in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: NativeLibrariesDialog_error_internal_not_existing in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: NativeLibrariesDialog_extfiledialog_text in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: NativeLibrariesDialog_intfiledialog_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: EditOutputFolderAction_ProgressMonitorDescription in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: AddArchiveToBuildpathAction_ErrorTitle in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS unused message: EditOutputFolderAction_ErrorDescription in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS missing message: LoadpathModifier_Error_NoNatures in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS missing message: LoadpathModifier_Monitor_AddToBuildpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS missing message: LoadpathModifier_Monitor_RemoveFromBuildpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS missing message: LoadpathModifierQueries_confirm_remove_linked_folder_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS missing message: LoadpathModifierQueries_delete_linked_folder in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.453
+!MESSAGE NLS missing message: LoadpathModifierQueries_do_not_delete_linked_folder in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathModifierQueries_confirm_remove_linked_folder_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathContainerWizard_new_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathContainerWizard_edit_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathContainerWizard_pagecreationerror_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathContainerWizard_pagecreationerror_message in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathModifier_Monitor_Excluding in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathModifier_Monitor_Including in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathContainerSelectionPage_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathContainerSelectionPage_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathContainerDefaultPage_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathContainerDefaultPage_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathContainerDefaultPage_path_label in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathContainerDefaultPage_path_error_enterpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathContainerDefaultPage_path_error_invalidpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathContainerDefaultPage_path_error_needssegment in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadpathContainerDefaultPage_path_error_alreadyexists in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: RubyProjectWizardSecondPage_problem_restore_loadpath in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: RubyCapabilityConfigurationPage_title in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: RubyCapabilityConfigurationPage_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: RubyCapabilityConfigurationPage_op_desc_java in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-08-14 16:14:20.468
+!MESSAGE NLS missing message: LoadPathDetector_operation_description in: org.rubypeople.rdt.internal.ui.wizards.NewWizardMessages

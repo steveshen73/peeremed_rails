@@ -1,0 +1,3 @@
+class FiberError < StandardError
+
+end

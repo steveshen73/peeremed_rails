@@ -1,0 +1,3 @@
+class RubyVM < Object
+
+end

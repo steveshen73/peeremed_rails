@@ -1,0 +1,3 @@
+class SecurityError < Exception
+
+end

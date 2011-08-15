@@ -1,0 +1,3 @@
+class KeyError < IndexError
+
+end
